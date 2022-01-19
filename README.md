@@ -1,34 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# journall-app
+
+
+This project was generated with [superplate](https://github.com/pankod/superplate).
 
 ## Getting Started
 
-First, run the development server:
+superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
+
+## Available Scripts
+
+### Running the development server.
 
 ```bash
-npm run dev
-# or
-yarn dev
+    yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Building for production.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+    yarn build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Running the production server.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+    yarn start
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about **superplate**, please check out the [Documentation](https://github.com/pankod/superplate).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### **SASS/SCSS**
 
-## Deploy on Vercel
+Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Go To Documentation](https://sass-lang.com/documentation)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### **Axios**
+
+Promise based HTTP client for the browser and node.js.
+
+[Go To Documentation](https://github.com/axios/axios)
+
+
+### **Storybook**
+
+Storybook is an open source tool for developing UI components in isolation for React, Vue, Angular, and more. It makes building stunning UIs organized and efficient.
+
+[Go To Documentation](https://storybook.js.org/docs/react/get-started/introduction)
+
+
+### **Environment Variables**
+
+Use environment variables in your next.js project for server side, client or both.
+
+[Go To Documentation](https://github.com/vercel/next.js/tree/canary/examples/environment-variables)
+
+
+### **Bundle Analyzer**
+
+Use webpack-bundle-analyzer in your Next.js project. Visualize size of webpack output files with an interactive zoomable treemap.
+
+[Go To Documentation](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)
+
+
+### **React Redux**
+
+Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.
+
+[Go To Documentation](https://redux.js.org/introduction/getting-started)
+
+
+### **RTK Query**
+
+RTK Query is a powerful data fetching and caching tool
+
+[Go To Documentation](https://redux-toolkit.js.org/rtk-query/overview)
+
+
+### **ESLint**
+
+A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
+
+[Go To Documentation](https://eslint.org/docs/user-guide/getting-started)
+
+
+### **Prettier**
+
+An opinionated code formatter; Supports many languages; Integrates with most editors.
+
+[Go To Documentation](https://prettier.io/docs/en/index.html)
+
+
+### **lint-staged**
+
+ The concept of lint-staged is to run configured linter (or other) tasks on files that are staged in git.
+
+[Go To Documentation](https://github.com/okonet/lint-staged)
+
+
+### **Enzyme**
+
+Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components&#39; output. You can also manipulate, traverse, and in some ways simulate runtime given the output.
+
+[Go To Documentation](https://enzymejs.github.io/enzyme/)
+
+
+
+## License
+
+MIT
